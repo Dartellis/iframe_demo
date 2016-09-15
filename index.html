@@ -6,11 +6,11 @@
 	<style>
 		body{
 			text-align: center;
-		}
 
-		p{
 
 		}
+
+		
 	</style>
 </head>
 <html>
@@ -25,7 +25,7 @@
 	</p>
 
 	<p>
-		Common applications of iframes include the embeding of multimedia, such as a YouTube video, into a site which dosn't host the content itself.
+		Common applications of iframes include the embeding of multimedia, such as a YouTube video, into a site which dosn't host the content itself. Note how iframes can be displayed within iframes.
 	</p>
 		<iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" width="420px" height="315">
 		  <p>Your browser does not support iframes.</p>
@@ -49,6 +49,22 @@
 	</p>
 
 	<iframe src="doc.pdf" width="1000px" height="600px"></iframe>
+
+	<p>
+		The name and targets attributes can be used in conjunction in order to change the content which they display.
+	</p>
+
+	<a href="http://dopaminds.com" target="myDemoFrame"> Dopaminds </a>
+
+	<a href="http://www.mit.edu" target="myDemoFrame"> MIT </a>
+
+	<iframe name="myDemoFrame" src="http://dopaminds.com" width="800" height="600">
+
+
+
+	<p> #iframeception </p>
+
+	<iframe src="index.html"" width="750px" height="750px"></iframe>
 
 
 </body>
